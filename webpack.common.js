@@ -55,6 +55,9 @@ module.exports = {
         },
       ],
     }),
-    new Dotenv(),
+    // new Dotenv(),
+    new webpack.DefinePlugin({
+      "process.env.SERVER_URL": JSON.stringify(process.env.SERVER_URL),
+    }),
   ],
 }
