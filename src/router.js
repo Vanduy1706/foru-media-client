@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router"
 import { loginRoute } from "./routes/auth/loginRoute"
 import { verificationRoute } from "./routes/auth/verificationRoute"
-import { registerRoute } from "./routes/auth/RegisterRoute"
+import { registerRoute } from "./routes/auth/registerRoute"
 import { homeRoute } from "./routes/home/homeRoute"
 import { loginAfterRedirectRoute } from "./routes/auth/loginAfterRedirectRoute"
 import NotFound from "./pages/error/NotFound"

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import Option from "../../components/option"
+import Option from "../../components/Option"
 import { logout } from "../../apis/auth/logout"
 import { useNavigate } from "react-router"
 import { useNotification } from "../../hooks/NotificationContext"
