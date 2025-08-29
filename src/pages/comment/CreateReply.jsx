@@ -128,7 +128,7 @@ export default function CreateReply() {
         }}
       ></div>
       <form
-        className="w-3/4 p-4 absolute bg-gray-50 flex flex-col flex-wrap gap-2 rounded z-50 sm:w-2/3 lg:w-1/2 xl:w-1/3 dark:bg-gray-700"
+        className="w-3/4 p-4 absolute bg-gray-50 flex flex-col gap-2 rounded z-50 sm:w-2/3 lg:w-1/2 xl:w-1/3 dark:bg-gray-700"
         onSubmit={(e) => {
           e.preventDefault()
           reply.mutate({
@@ -139,7 +139,7 @@ export default function CreateReply() {
           })
         }}
       >
-        <div className="flex flex-row justify-between items-center">
+        <div className="flex flex-row flex-wrap justify-between items-center">
           <p className="font-inter font-semibold text-blue-600 text-lg dark:text-blue-200">
             Reply @{commentDetail.data.author.nickname}
           </p>
